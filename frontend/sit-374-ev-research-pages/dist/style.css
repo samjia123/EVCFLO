@@ -59,11 +59,8 @@ height: 70px;
     color: #f0f0f0;
 }
 button {
-  position: relative;
-    top:0px; 
-    left: 10px;
-    padding: 10px 40px;
-    background-color: #FFFFFF;
+    padding: 10px 20px;
+    background-color: #ffffff;
     color: #446D31;
     border: none;
     border-radius: 50px;
@@ -87,14 +84,10 @@ line-height: 45px;
 
 }
 .first-part {
-  position: relative;
-  left:250px;
   color: #658F52;
   font-size: 40px;
 }
 .second-part {
-  position: relative;
-  left:250px;
   color: #34472A; 
 }
 
@@ -102,8 +95,8 @@ line-height: 45px;
   position: absolute;
 width: 1000px;
 height: 50px;
-left: 800px;
-top: 180px;
+left: 650px;
+top: 130px;
 
 font-family: 'Inter';
 font-style: normal;
@@ -113,11 +106,24 @@ line-height: 20px;
 
 color: rgba(0, 0, 0, 0.43);
 }
+.research{
+position: absolute;
+width: 317px;
+height: 66px;
+left: 51px;
+top: 150px;
 
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 48px;
+
+color: #000000;
+}
 .textbox1{
 position: absolute;
 width: 399px;
-height: 400px;
+height: 200px;
 left: 40px;
 top: 250px;
 
@@ -125,24 +131,72 @@ background: #DAD676;
 border-radius: 50px;
 
 }
-.textbox2{
+
+.searchbar input[type="text"] {
   position: absolute;
+width: 300px;
+height: 40px;
+left: 1604px;
+top: 120px;
+background: #DAD676;
+border: none;
+    padding: 5px;
+    margin-right: 10px;
+    flex-grow: 1;
+    border-radius: 30px; 
+  }
+.textbox2{
+position: absolute;
 width: 399px;
-height: 400px;
-left: 850px;
+height: 200px;
+left: 800px;
 top: 250px;
 
 background: #DAD676;
 border-radius: 50px;
-}
 
+}
 .textbox3{
 position: absolute;
 width: 399px;
-height: 400px;
-left: 1620px;
+height: 270px;
+left: 1600px;
 top: 250px;
 
 background: #DAD676;
 border-radius: 50px;
+
+}
+.textbox4{
+  position: absolute;
+  width: 399px;
+  height: 220px;
+  left: 40px;
+  top: 600px;
+  
+  background: #DAD676;
+  border-radius: 50px;
+  
+  }
+.textbox5{
+    position: absolute;
+    width: 410px;
+    height: 220px;
+    left: 800px;
+    top: 600px;
+    
+    background: #DAD676;
+    border-radius: 50px;
+    
+    }
+.textbox6{
+      position: absolute;
+      width: 410px;
+      height: 220px;
+      left: 1600px;
+      top: 600px;
+      
+      background: #DAD676;
+      border-radius: 50px;
+      
 }
